@@ -4,9 +4,9 @@ import java.util.Random;
 
 public class Main {
     public static void EmpWageStatus(int num){
-        int Wage_HR = 20;
-        int Day_HRs = 8;
-        int Part_HRs = 8;
+        int Wage_Hrs = 20;
+        int Day_Hrs = 8;
+        int Part_Hrs = 8;
         int NumDays = 20;
         double daywage = 0;
         double monthwage = 0;
