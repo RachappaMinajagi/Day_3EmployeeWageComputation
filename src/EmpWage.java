@@ -2,7 +2,7 @@
 import java.util.Random;
 
 
-public class Main {
+public class EmpWage {
     public static void EmpWageStatus(int num){
         int Wage_Hrs = 20;
         int Day_Hrs = 8;
