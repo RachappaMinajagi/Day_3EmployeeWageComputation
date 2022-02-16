@@ -1,10 +1,6 @@
 
 import java.util.Random;
 
-
-import java.util.Random;
-
-
 public class Main {
     public static void EmpWageStatus(int num){
         int Wage_HR = 20;
