@@ -10,20 +10,25 @@ public class Main {
         int Wage_HR = 20;
         int Day_HRs = 8;
         int Part_HRs = 8;
+        int NumDays = 20;
+        double daywage = 0;
+        double monthwage = 0;
 
-        switch (num){
-            case 1:
-                System.out.println("Employee Present");
-                System.out.println("DayWage = " + Wage_HR * Day_HRs);
-                break;
-            case 2:
-                System.out.println("Employee Present");
-                System.out.println("DayWage with Part Time = " + Wage_HR * (Day_HRs + Part_HRs));
-                break;
-            case 0:
-                System.out.println("Employee Absent");
-                System.out.println("DayWage = "+0);
+        for (int i =0; i<NumDays; i++){
+            switch (num){
+                case 1:
+                    daywage = Wage_HR * Day_HRs * i;
+                    break;
+                case 2:
+                    daywage = Wage_HR * (Day_HRs + Part_HRs) * i;
+                    break;
+                case 0:
+                    break;
+
+            }
+            monthwage = monthwage + daywage;
         }
+        System.out.println("Month Wage : " + monthwage);
 
 
     }
